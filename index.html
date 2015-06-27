@@ -19,6 +19,116 @@
     <link rel="stylesheet" href="css/avengergear.css">
     <!-- endbuild -->
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script>
+		$(function() {
+
+			$('.startup').transition('hide');
+
+			$('#startup-button-1').on('mouseenter', function() {
+
+				if ($('#startup-1').transition('is visible'))
+					return;
+
+				$('.startup')
+					.transition('hide');
+
+				$('#startup-1')
+					.transition('stop all')
+					.transition('horizontal flip show');
+			});
+
+			$('#startup-button-2').on('mouseenter', function() {
+
+				if ($('#startup-2').transition('is visible'))
+					return;
+
+				$('.startup')
+					.transition('hide');
+
+				$('#startup-2')
+					.transition('stop all')
+					.transition('horizontal flip show');
+			});
+
+			$('#startup-button-3').on('mouseenter', function() {
+
+				if ($('#startup-3').transition('is visible'))
+					return;
+
+				$('.startup')
+					.transition('hide');
+
+				$('#startup-3')
+					.transition('stop all')
+					.transition('horizontal flip show');
+			});
+
+			$('#startup-button-4').on('mouseenter', function() {
+
+				if ($('#startup-4').transition('is visible'))
+					return;
+
+				$('.startup')
+					.transition('hide');
+
+				$('#startup-4')
+					.transition('stop all')
+					.transition('horizontal flip show');
+			});
+
+			$('#startup-button-5').on('mouseenter', function() {
+
+				if ($('#startup-5').transition('is visible'))
+					return;
+
+				$('.startup')
+					.transition('hide');
+
+				$('#startup-5')
+					.transition('stop all')
+					.transition('horizontal flip show');
+			});
+
+			$('#startup-button-6').on('mouseenter', function() {
+
+				if ($('#startup-6').transition('is visible'))
+					return;
+
+				$('.startup')
+					.transition('hide');
+
+				$('#startup-6')
+					.transition('stop all')
+					.transition('horizontal flip show');
+			});
+
+			$('#startup-button-7').on('mouseenter', function() {
+
+				if ($('#startup-7').transition('is visible'))
+					return;
+
+				$('.startup')
+					.transition('hide');
+
+				$('#startup-7')
+					.transition('stop all')
+					.transition('horizontal flip show');
+			});
+
+			$('#startup-button-8').on('mouseenter', function() {
+
+				if ($('#startup-8').transition('is visible'))
+					return;
+
+				$('.startup')
+					.transition('hide');
+
+				$('#startup-8')
+					.transition('stop all')
+					.transition('horizontal flip show');
+			});
+		});
+	</script>
 </head>
 <body>
 
@@ -83,49 +193,99 @@
         <div class="row">
             <div class="column padding-reset">
 				<div class="ui huge message landing-header">
-					<h1 class="ui huge header center aligned">Bring Your Idea to Market</h1>
-                    <ul class="market-flow">
-                        <li>
-                        <a class='list-item' href=''>
-                            <i class='idea icon'></i>
-                        </a>
-                        </li>
-                        <li>
-                        <a class='list-item' href=''>
-                            <i class='puzzle icon'></i>
-                        </a>
-                        </li>
-                        <li>
-                        <a class='list-item' href=''>
-                            <i class='check square icon'></i>
-                        </a>
-                        </li>
-                        <li>
-                        <a class='list-item' href=''>
-                            <i class='announcement icon'></i>
-                        </a>
-                        </li>
-                        <li>
-                        <a class='list-item' href=''>
-                            <i class='student icon'></i>
-                        </a>
-                        </li>
-                        <li>
-                        <a class='list-item' href=''>
-                            <i class='flag icon'></i>
-                        </a>
-                        </li>
-                        <li>
-                        <a class='list-item' href=''>
-                            <i class='money icon'></i>
-                        </a>
-                        </li>
-                        <li>
-                        <a class='list-item' href=''>
-                            <i class='cubes icon'></i>
-                        </a>
-                        </li>
-                    </ul>
+					<!--h1 class="ui huge header center aligned">Bring Your Idea to Market</h1-->
+
+					<div class="ui column grid">
+						<div class="one wide column padding-reset">
+						</div>
+
+						<div class="three wide column padding-reset">
+							<ul class="market-flow">
+								<li>
+								<a class='list-item' href='' id="startup-button-1">
+									<i class='idea icon'></i>
+								</a>
+								</li>
+								<li>
+								<a class='list-item' href='' id="startup-button-2">
+									<i class='puzzle icon'></i>
+								</a>
+								</li>
+								<li>
+								<a class='list-item' href='' id="startup-button-3">
+									<i class='check square icon'></i>
+								</a>
+								</li>
+								<li>
+								<a class='list-item' href='' id="startup-button-4">
+									<i class='announcement icon'></i>
+								</a>
+								</li>
+								<li>
+								<a class='list-item' href='' id="startup-button-5">
+									<i class='student icon'></i>
+								</a>
+								</li>
+								<li>
+								<a class='list-item' href='' id="startup-button-6">
+									<i class='flag icon'></i>
+								</a>
+								</li>
+								<li>
+								<a class='list-item' href='' id="startup-button-7">
+									<i class='money icon'></i>
+								</a>
+								</li>
+								<li>
+								<a class='list-item' href='' id="startup-button-8">
+									<i class='cubes icon'></i>
+								</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="twelve wide column padding-reset">
+							<div id="startup-1" class="startup">
+								<h1 class="ui huge header">Bring Your Idea to Market</h1>
+							</div>
+							<div id="startup-2" class="startup">
+								<h1 class="ui huge header">Make A Proof of Concept</h1>
+								<h3 class="ui header">We belive you are so talented to do everything by yourself, but sometimes you still need some helps.</h3>
+								<h3 class="ui header">You might need talented people to join your team</h3>
+								<div class="ui green button">Find people</div>
+								<h3 class="ui header">You might need perfession consultant for your POC making</h3>
+								<div class="ui green button">Find consultant</div>
+							</div>
+							<div id="startup-3" class="startup">
+								<h1 class="ui huge header">Make Samples</h1>
+								<h3 class="ui header">More qualified samples for a demo and testing market</h3>
+								<h3 class="ui header">You need a way for customizing and small-scale production</h3>
+								<div class="ui green button">Make my samples</div>
+							</div>
+							<div id="startup-4" class="startup">
+								<h1 class="ui huge header">Product Announcement</h1>
+								<h3 class="ui header">Show off your idea and product</h3>
+								<h3 class="ui header">Tell everybody that's coolest thing</h3>
+								<div class="ui green button">Make promotion strategy</div>
+							</div>
+							<div id="startup-5" class="startup">
+								<h1 class="ui huge header">Test Market and Concept</h1>
+								<h3 class="ui header">Start to sell your product and concept.</h3>
+								<h3 class="ui header">On the first try, invite people to visit and teach them how to use and work which is based on your product.</h3>
+								<div class="ui green button">Make a workshop</div>
+								<div class="ui green button">Make a event</div>
+							</div>
+							<div id="startup-6" class="startup">
+								<h1 class="ui huge header">Market Verification</h1>
+							</div>
+							<div id="startup-7" class="startup">
+								<h1 class="ui huge header">Funding</h1>
+							</div>
+							<div id="startup-8" class="startup">
+								<h1 class="ui huge header">Make Process of Mass Production to Market</h1>
+							</div>
+						</div>
+					</div>
 				</div>
             </div>
         </div>
